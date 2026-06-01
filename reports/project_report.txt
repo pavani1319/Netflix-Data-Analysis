@@ -1,0 +1,22 @@
+Netflix Data Analysis Report
+
+Dataset: Netflix Movies and TV Shows Dataset
+
+Steps Performed:
+
+1. Loaded dataset using Pandas
+2. Explored dataset structure
+3. Handled missing values
+4. Analyzed Movies vs TV Shows distribution
+5. Identified top contributing countries
+6. Analyzed content release trends
+7. Created visualizations
+
+Key Findings:
+
+* Movies dominate Netflix content
+* Few countries contribute most content
+* Content releases increased over recent years
+
+Tools Used:
+Python, Pandas, NumPy, Matplotlib, Jupyter Notebook
