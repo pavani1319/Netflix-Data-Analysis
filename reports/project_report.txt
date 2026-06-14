@@ -1,22 +1,50 @@
-Netflix Data Analysis Report
+Netflix Content Analysis Report
 
-Dataset: Netflix Movies and TV Shows Dataset
+Dataset:
+Netflix Movies and TV Shows Dataset
+
+Project Overview:
+This project combines Python-based Exploratory Data Analysis (EDA) and Power BI dashboard development to analyze Netflix content and uncover content distribution, genre trends, ratings, country-wise availability, and release patterns.
 
 Steps Performed:
 
 1. Loaded dataset using Pandas
-2. Explored dataset structure
+2. Explored dataset structure and data quality
 3. Handled missing values
-4. Analyzed Movies vs TV Shows distribution
-5. Identified top contributing countries
-6. Analyzed content release trends
-7. Created visualizations
+4. Performed Exploratory Data Analysis (EDA)
+5. Analyzed Movies vs TV Shows distribution
+6. Identified top contributing countries
+7. Analyzed content ratings and genres
+8. Examined content release trends over time
+9. Created visualizations using Python
+10. Built an interactive Power BI dashboard
+11. Created DAX measures and KPI cards
+12. Designed dashboard for data storytelling
 
 Key Findings:
 
-* Movies dominate Netflix content
-* Few countries contribute most content
-* Content releases increased over recent years
+• Movies account for approximately 69.6% of Netflix content.
+• TV Shows account for approximately 30.4% of Netflix content.
+• TV-MA is the most common content rating.
+• Drama and Documentary genres are among the most popular categories.
+• Content releases increased significantly after 2015.
+• A small number of countries contribute a large share of Netflix content.
 
 Tools Used:
-Python, Pandas, NumPy, Matplotlib, Jupyter Notebook
+
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
+Power BI
+Power Query
+DAX
+
+Project Deliverables:
+
+• Jupyter Notebook for EDA
+• Power BI Dashboard (.pbix)
+• Dashboard Visualizations
+• Project Documentation
