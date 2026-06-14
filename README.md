@@ -1,39 +1,73 @@
-# Netflix Data Analysis
+# Netflix Content Analysis Dashboard
 
-## Project Overview
+## Overview
 
-This project analyzes Netflix movies and TV shows data to identify content trends, distribution patterns, and release trends using Python.
+This project combines Python-based Exploratory Data Analysis (EDA) and Power BI visualization to analyze Netflix content. Python was used for data exploration and understanding content trends, while Power BI was used to build an interactive dashboard for data storytelling and business insights.
 
-## Technologies Used
+## Dashboard Preview
+
+![Netflix Dashboard](images/Netflix_Dashboard.png)
+
+## Project Workflow
+
+Netflix Dataset → Python Analysis → Data Exploration → Power BI Dashboard → Business Insights
+
+## Key Metrics
+
+* Total Shows: 8,803
+* Total Ratings: 19
+* Total Genres: 515
+* Total Directors: 4,527
+* Movies Percentage: 69.6%
+* TV Shows Percentage: 30.4%
+
+## Dashboard Features
+
+* KPI Cards
+* Rating Analysis
+* Genre Analysis
+* Country-wise Content Distribution
+* Movies vs TV Shows Analysis
+* Release Year Trend Analysis
+
+## Key Insights
+
+* Movies account for approximately 69.6% of Netflix content.
+* TV Shows account for approximately 30.4% of Netflix content.
+* TV-MA is the most common content rating.
+* Drama and Documentary genres are the most popular categories.
+* Netflix content releases increased significantly after 2015.
+* Content production is concentrated in a few major countries.
+
+## Tools & Technologies
 
 * Python
 * Pandas
 * NumPy
 * Matplotlib
-
-## Workflow
-
-* Imported and explored dataset
-* Performed data cleaning and handled missing values
-* Compared Movies and TV Shows distribution
-* Analyzed top contributing countries
-* Examined content release trends over years
-* Created visualizations for insights
-
-## Key Findings
-
-* Movies account for a larger share of Netflix content compared to TV Shows
-* A small number of countries contribute most of the content
-* Content releases increased significantly in recent years
+* Seaborn
+* Power BI
+* Power Query
+* DAX
 
 ## Project Structure
 
-dataset/ → dataset files
-notebooks/ → analysis notebook
-images/ → visualizations and charts
-reports/ → project reports and outputs
+Netflix-Data-Analysis
 
-## Future Improvements
+├── dataset
 
-* Add interactive dashboards using Power BI
-* Perform genre-wise analysis
+├── images
+
+│   └── netflix_dashboard.png
+
+├── reports
+
+│   └── Netflix_Dashboard.pbix
+
+└── README.md
+
+## Author
+
+Pavani Yeddala
+
+Data Analytics Enthusiast
