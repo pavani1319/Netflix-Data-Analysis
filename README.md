@@ -47,7 +47,6 @@ Netflix Dataset → Python Analysis → Data Exploration → Power BI Dashboard 
 * Matplotlib
 * Seaborn
 * Power BI
-* Power Query
 * DAX
 
 ## Project Structure
